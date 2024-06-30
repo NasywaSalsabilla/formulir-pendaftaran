@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>from Pendaftaran Mahaiswa Baru</title>
+    </head>
+    <body>
+    
+        <h1>Form Pendaftaran Mahasiswa Baru</h1>
+        <form>
+          <label for="jalur_masuk">Jalur Masuk:</label>
+          <input type="radio"id="mandiri/ptn"name="mandiri/ptn"value="1"requited>
+          <label for="mandiri/ptn">Mandiri/PTN</label><br>
+          <input type="radio"id="pmok-pn"name="pmok-pn"value="2"requited>
+          <label for="pmok-pn">Pmok-PN<label><br>
+            <label for="jenis_masuk">Jenis Masuk</label>
+            <select id="Jenis_Masuk"name="Jenis Masuk">
+                <option value="a">a.Peserta Didik Baru</option>
+                <option value="b">b.Pindahan</option>
+                <option value="c">c.Alih Jenjang</option>
+                <option value="d">d.Lintas Jalur</option>
+            </select>
+            <label for="Jurusan">Jurusan/Program Studi Pilihan</label>
+            <select id="Jurusan"name="Jurusan">
+                <option value="a">a.SI Strata 1 (Sarjana) (Sistem Informasi)</option>
+                <option value="b">b.TI Strata 1 (Sarjana) Teknik Informatika</option>
+                <option value="c">c.MI Diploma 3 (Ilmu Madya) (Manajemen Informatika)</option>
+                <option value="d">d.KA Diploma 3 (Ilmu Madya) (Komputerisasi Akuntansi)</option>
+            </select>
+
+            <h2>Biodata Mahasiswa</h2>
+            <form>
+            <label for="nik">Nik:</label>
+            <input type="text"id="nik"name="nik"required><br><br>
+            <label for="nama"Nama>Nama Lengkap:</label>
+            <input type="text"id="nama"name="nama"required><br><br>
+            <label for="jenis_kelamin">Jenis Kelamin:</label>
+            <input type="radio"id="laki-laki"name="jenis_kelamin"value="1"required>
+            <label for="laki-laki">Laki-Laki</label><br>
+            <input type="radio"id="perempuan"name="jenis_kelamin" value="2"required>
+            <label for="perempuan">Perempuan</label><br><br>
+            <label for="tempat_lahir">Tempat_Lahir:</label>
+            <input type="text" id="tempat_lahir"name="tempat_lahir"required><br><br>
+            <label for="tanggal_lahir">Tanggal Lahir:</label>
+            <input type="date"id="tanggal_lahir"name="tanggal_lahir"required><br><br>
+            <label for="kewarnegaraan">Kewarnegaraan:</label>
+            <input type="text".id="kewarnegaraan"name="kewarnegaraan"required><br><br>
+            <label for="agama">Agama:</label>
+            <select id="agama"name="agama"required>
+                <option value="1">1.Islam</option>
+                <option value="2">2.Kristen</option>
+                <option value="3">3.Katolik</option>
+                <option value="4">4.Hindu</option>
+                <option value="5">5.Buddha</option>
+                <option value="6">6.Konghucu</option>
+                </select><br><br>
+                <label for="nomor_hp">Nomor HP:</label>
+                <input type="tel"id="nomo_hp"name="nomor_hp"required><br><br>
+                <label for="email">Email:</label>
+                <input type="email"id="email"name="email"required><br><br>
+
+                <h3>Alamat</h3>
+                <form>
+                    <label for="addressStreet">Alamat Jalan:</label>
+                    <input type="text"id="addressStreet" placeholder="Masukkan alamat Anda">
+                    <br>
+                    <label for="addresRtRw">Rt/Rw/Kode Pos:</label>
+                    <input type="textid="addressVillage" placeholder="Masukkan desa/kelurahan Anda">
+                    <br>
+                    <label for="addresVillage">Desa/Kelurahan:</label>
+                    <input type="text"id="addresVillage" placeholder="Masukkan desa/kelurahan Anda">
+                    <br>
+                    <label for="addressDistrict">Kecamatan:</label>
+                    <input type="text"id="addresDistrict" placeholder="Masukkan kecamatan Anda">
+                    <br>
+                    <label for="addresCity">Kbupaten/kota:</label>
+                    <input type="text"id="addresCity"placeholder="Masukkan kabupaten/kota Anda">
+                    <br>
+                    <label for="adressProvince">Provinsi:</label>
+                    <input type="text"id="addresProvince"placeholder="Masukkan provinsi Anda">
+                    <br>
+                    <label for="addresssCountry">Negara:</label>
+                    <input type="text"id="addresssCountry" placeholder="Masukkan negara anda">
+                </select><br><br>
+
+                <h4>Data Sekolah</h4>
+                <form>
+                    <label for="name">Nama:</label>
+                    <input type="text"id="name" placeholder="Masukkan nama Anda">
+                    <br>
+                    <label for="addres">Alamat:</lable>
+                    <input type="text"id="addres" placeholder="Masukkan alamat Anda">
+                   <br>
+                   <label for="school">Nama Sekolah Asal:</label>
+                   <input type="text"id="school"placeholder="Masukkan nama sekolah asal Anda">
+                   <br>
+                   <label for="addresSchool">Alamat Sekolah Asal:</label>
+                   <input type="text"id="addresSchool" placeholder="Masukkan alamat sekolah asal Anda">
+                   <br>
+                   <label for="yearGraduated">Tahun Lulus:</label>
+                   <input type="number"id="yearGraduated" placeholder="Masukkan tahun Anda lulus">
+                   <br>
+                   <label for="major">Jurusan:</label>
+                   <select id="major">
+                    <option value="ipa">IPA</option>
+                    <option value="ips">IPS</option>
+                    <option value="bahasa">Bahasa</option>
+                    <option value="agama">Agama</option>
+                   </select>
+                   <br>
+                </form> 
+
+<h5>Biodata Orang Tua/Wali</h5>
+<form>
+    
+    <label for="ayah_nik">Nik Ayah:</label>
+    <input type="text"id="ayah_nik"name="ayah_nik":required><br><br>
+    <label for="ayah_nama">Nama Lengkap Ayah:</label>
+    <input type="text"id="ayah_nama"name="ayah_nama"required><br><br>
+    <label for="ayah_tempat_lahir">Tempat Lahir Ayah:</label>
+    <input type="text"id="ayah_tempat_lahir"name="ayah_tempat_lahir"required><br><br>
+    <label for="ayah_tanggal_lahir">Tanggal Lahir Ayah:</label>
+    <input type="date"id="ayah_tanggal_lahir"name="ayah_tanggal_lahir"required><br><br>
+    <label for="ayah_pendidikan_terakhir">Pendidikan Terakhir Ayah:</label>
+    <select id="ayah_pendidikan_terakhir"name="ayah_pendidikan_terakhir"required>
+        <option value="1">1.Tidak Sekolah</option>
+        <option value="2">2.SD/Sederajat</option>
+        <option value="3">3.SMP/Sederajat</option>
+        <option value="4">4.SMA Sederajat</option>
+        <option value="5">5.Diploma</option>
+        <option value="6">6.Sarjana</option>
+    </select><br><br>
+    <label for="ayah_pekerjaan">Pekerjaan Ayah:</label>
+    <select id="ayah_pekerjaan"name="ayah_pekerjaan"required>
+        <option value="1">1.Tidak Bekerja</option>
+        <option value="2">2.Nelayan</option>
+        <option value="3">3.Petani</option>
+        <option value="4">4.Peternak</option>
+        <option value="5">5.PNS/TNI</option>
+        <option value="6">6.Karyawan Swasta</option>
+        <option value="7">7.Pedagang</option>
+        <option value="8">8.Wirausaha/Wiraswasta</option>
+    </select><br><br>
+    <label for="ayah_penghasilan">Penghasilan Ayah:</label>
+    <input type="text"id="ayah_penghasilan"name="ayah_penghasilan"requited><br><br>
+    <label for="ayah_status">Status Ayah/Wali:</label>
+    <input type="radio"id="ayah_kandung"name="ayah_status"value="1"requited>
+    <label for="ayah_kandung">Kandung</label><br>
+    <input type="radio"id="ayah_tiri"name="ayah_status"value="2"requited>
+    <label for="ayah_tiri">Tiri</label><br>
+    <input type="radio"id="ayah_angkat"name="ayah_status"value="3"requited>
+    <label for="ayah_angkat">Angkat</label><br><br>
+    <label for="ayah_status_kehidupan">Status Kehidupan Ayah/Wali:</label>
+    <input type="radio"id="ayah_hidup"name="ayah_status_kehidupan"value="1"requited>
+    <label for="ayah_hidup">Hidup</label><br>
+    <input type="radio"id="ayah_meninggal"name="ayah_status_kehidupan"value="2"requited>
+    <label for="ayah_meninggal">Meninggal</label><br><br>
+    </select><br><br>
+
+ 
+    <label for="ibu_nik">Nik Ibu:</label>
+    <input type="text"id="Ibu_nik"name="ibu_nik":required><br><br>
+    <label for="ibu_nama">Nama Lengkap Ibu:</label>
+    <input type="text"id="Ibu_nama"name="Ibu_nama"required><br><br>
+    <label for="Ibu_tempat_lahir">Tempat Lahir Ibu:</label>
+    <input type="text"id="ibu_tempat_lahir"name="ibu_tempat_lahir"required><br><br>
+    <label for="ibu_tanggal_lahir">Tanggal Lahir Ibu:</label>
+    <input type="date"id="ibu_tanggal_lahir"name="ibu_tanggal_lahir"required><br><br>
+    <label for="ibu_pendidikan_terakhir">Pendidikan Terakhir Ibu:</label>
+    <select id="ibu_pendidikan_terakhir"name="ibu_pendidikan_terakhir"required>
+        <option value="1">1.Tidak Sekolah</option>
+        <option value="2">2.SD/Sederajat</option>
+        <option value="3">3.SMP/Sederajat</option>
+        <option value="4">4.SMA Sederajat</option>
+        <option value="5">5.Diploma</option>
+        <option value="6">6.Sarjana</option>   
+</select><br><br>
+    <label for="Ibu_pekerjaan">Pekerjaan Ibu:</label>
+    <select id="ibu_pekerjaan"name="ibu_pekerjaan"required>
+        <option value="1">1.Tidak Bekerja</option>
+        <option value="2">2.Nelayan</option>
+        <option value="3">3.Petani</option>
+        <option value="4">4.Peternak</option>
+        <option value="5">5.PNS/TNI</option>
+        <option value="6">6.Karyawan Swasta</option>
+        <option value="7">7.Pedagang</option>
+        <option value="8">8.Wirausaha/Wiraswasta</option>
+    </select><br><br>
+    <label for="ibu_penghasilan">Penghasilan Ibu:</label>
+    <input type="text"id="ibu_penghasilan"name="ibu_penghasilan"requited><br><br>
+    <label for="ibu_status">Status ibu/Wali:</label>
+    <input type="radio"id="ibu_kandung"name="ibu_status"value="1"requited>
+    <label for="ibu_kandung">Kandung</label><br>
+    <input type="radio"id="ibu_tiri"name="ibu_status"value="2"requited>
+    <label for="ibu_tiri">Tiri</label><br>
+    <input type="radio"id="ibu_angkat"name="ibu_status"value="3"requited>
+    <label for="ibu_angkat">Angkat</label><br><br>
+    <label for="ibu_status_kehidupan">Status Kehidupan Ibu:</label>
+    <input type="radio"id="ibu_hidup"name="ibu_status_kehidupan"value="1"requited>
+    <label for="ibu_hidup">Hidup</label><br>
+    <input type="radio"id="ibu_meninggal"name="ibu_status_kehidupan"value="2"requited>
+    <label for="ibu_meninggal">Meninggal</label><br><br>
+    </select><br><br>
+
+
+    <label for="wali_nik">Nik Wali:</label>
+    <input type="text"id="wali_nik"name="wali_nik":required><br><br>
+    <label for="wali_nama">Nama Lengkap Wali:</label>
+    <input type="text"id="wali_nama"name="wali_nama"required><br><br>
+    <label for="wali_tempat_lahir">Tempat Lahir Wali:</label>
+    <input type="text"id="wali_tempat_lahir"name="wali_tempat_lahir"required><br><br>
+    <label for="wali_tanggal_lahir">Tanggal Lahir Wali:</label>
+    <input type="date"id="wali_tanggal_lahir"name="wali_tanggal_lahir"required><br><br>
+    <label for="wwali_pendidikan_terakhir">Pendidikan Terakhir wali:</label>
+    <select id="wali_pendidikan_terakhir"name="wali_pendidikan_terakhir"required>
+        <option value="1">1.Tidak Sekolah</option>
+        <option value="2">2.SD/Sederajat</option>
+        <option value="3">3.SMP/Sederajat</option>
+        <option value="4">4.SMA Sederajat</option>
+        <option value="5">5.Diploma</option>
+        <option value="6">6.Sarjana</option>
+    </select><br><br>
+    <label for="wali_pekerjaan">Pekerjaan Wali/Wali:</label>
+    <select id="wali_pekerjaan"name="wali_pekerjaan"required>
+        <option value="1">1.Tidak Bekerja</option>
+        <option value="2">2.Nelayan</option>
+        <option value="3">3.Petani</option>
+        <option value="4">4.Peternak</option>
+        <option value="5">5.PNS/TNI</option>
+        <option value="6">6.Karyawan Swasta</option>
+        <option value="7">7.Pedagang</option>
+        <option value="8">8.Wirausaha/Wiraswasta</option>
+    </select><br><br>
+    <label for="wali_penghasilan">Penghasilan Wali:</label>
+    <input type="text"id="wali_penghasilan"name="wali_penghasilan"requited><br><br>
+    <label for="wali_status">Status Wali:</label>
+    <input type="radio"id="wali_kandung"name="wali_status"value="1"requited>
+    <label for="wali_kandung">Kandung</label><br>
+    <input type="radio"id="wali_tiri"name="wali_status"value="2"requited>
+    <label for="wali_tiri">Tiri</label><br>
+    <input type="radio"id="wali_angkat"name="wali_status"value="3"requited>
+    <label for="wali_angkat">Angkat</label><br><br>
+    <label for="wali_status_kehidupan">Status KehidupanWali:</label>
+    <input type="radio"id="wali_hidup"name="wali_status_kehidupan"value="1"requited>
+    <label for="wali_hidup">Hidup</label><br>
+    <input type="radio"id="wali_meninggal"name="wali_status_kehidupan"value="2"requited>
+    <label for="wali_meninggal">Meninggal</label><br><br>
+    </select><br><br>
+
+
+</div>
+                <input type="submit"value="kirim">
+        </form>
+    </body>
+</html>
